@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#1f6f4a">
+  <title>Disc Golf Bag Planner</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <h1>Bag Planner <span>&amp; Score Tracker</span></h1>
+  </header>
+
+  <main id="view" aria-live="polite"></main>
+
+  <nav class="tabs" aria-label="Main">
+    <button data-tab="plan"><span class="ico">🗺️</span>Plan</button>
+    <button data-tab="play"><span class="ico">🥏</span>Play</button>
+    <button data-tab="stats"><span class="ico">📈</span>Stats</button>
+    <button data-tab="bag"><span class="ico">🎒</span>Bag</button>
+  </nav>
+
+  <div id="toast" role="status"></div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
