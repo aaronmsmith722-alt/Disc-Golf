@@ -26,8 +26,10 @@ python3 -m http.server 8000
 Opening `index.html` directly from disk won't work, because browsers block
 JavaScript modules on `file://` URLs.
 
-To publish it, turn on **GitHub Pages** for this repository
-(Settings → Pages → deploy from branch, root folder).
+It's published with GitHub Pages at
+https://aaronmsmith722-alt.github.io/Disc-Golf/. On a phone, use the browser's
+**Add to Home Screen** option to install it with its own icon; it then opens
+full-screen like an app.
 
 ## Database
 
